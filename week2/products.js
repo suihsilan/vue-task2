@@ -27,7 +27,7 @@ createApp({
       axios
         .get(url)
         .then((response) => {
-          // console.log(response.data.products);
+          console.log(response.data.products);
           this.products = response.data.products;
         })
         .catch((err) => {
